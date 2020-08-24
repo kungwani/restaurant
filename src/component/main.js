@@ -60,11 +60,11 @@ const Main = (props) => {
          <h2>Veggie Restaurant</h2>
        </Col></Row>
        <Row>
-       <Col >
+       <Col md={2} >
         <h5 className="d-flex align-items-center"><img src={require('../image/Rating-star-yellow.png')}></img> 4.7(23)</h5>
        </Col>
-      <Col>
-        <p className="text-right"><img src={require('../image/cuisinewhite.png')}></img>Litian</p>
+      <Col md={2}>
+        <p className="text-left"><img src={require('../image/cuisinewhite.png')}></img>Litian</p>
        </Col></Row>
        <Row className="mt-3">
          <Col><img src={require("../image/pin-white.png")}></img> 675, Maude Ave,CA, Italian, Greek</Col>
@@ -173,7 +173,143 @@ const Main = (props) => {
              <h2 className="tab-heading">Popular Items</h2>
            </Col>
          </Row>
-         <Row>{newdata}</Row>
+         <Row> <Col md={3}>
+       <Card  >
+       <CardImg top width="100%" src={require('../image/listdishes.png')} alt="Card image cap" />
+        <div className="reviews">
+          <img src={require('../image/heart.png')}></img>
+        </div>
+       <CardBody>
+         <CardTitle> Arkansas Fried Pickles </CardTitle>
+         <CardSubtitle> <img src={require("../image/star.png")}></img> 4 <span>(23)</span></CardSubtitle>
+       
+        <div className="d-flex footer-card">
+          <img src={require('../image/review.png')}></img>
+          <h3 className="orange-price">  $84.3 </h3>
+        </div>
+       </CardBody>
+     </Card>
+     </Col>
+     <Col md={3}>
+       <Card  >
+       <CardImg top width="100%" src={require('../image/listdishes1.png')} alt="Card image cap" />
+        <div className="reviews">
+          <img src={require('../image/heart.png')}></img>
+        </div>
+       <CardBody>
+         <CardTitle> Arkansas Fried Pickles </CardTitle>
+         <CardSubtitle> <img src={require("../image/star.png")}></img> 4 <span>(23)</span></CardSubtitle>
+       
+        <div className="d-flex footer-card">
+          <img src={require('../image/review.png')}></img>
+          <h3 className="orange-price">  $84.3 </h3>
+        </div>
+       </CardBody>
+     </Card>
+     </Col>
+     <Col md={3}>
+       <Card  >
+       <CardImg top width="100%" src={require('../image/listdishes3.jpg')} alt="Card image cap" />
+        <div className="reviews">
+          <img src={require('../image/heart.png')}></img>
+        </div>
+       <CardBody>
+         <CardTitle> Arkansas Fried Pickles </CardTitle>
+         <CardSubtitle> <img src={require("../image/star.png")}></img> 4 <span>(23)</span></CardSubtitle>
+       
+        <div className="d-flex footer-card">
+          <img src={require('../image/review.png')}></img>
+          <h3 className="orange-price">  $84.3 </h3>
+        </div>
+       </CardBody>
+     </Card>
+     </Col>
+     <Col md={3}>
+       <Card  >
+       <CardImg top width="100%" src={require('../image/listdishes4.jpg')} alt="Card image cap" />
+        <div className="reviews">
+          <img src={require('../image/heart.png')}></img>
+        </div>
+       <CardBody>
+         <CardTitle> Arkansas Fried Pickles </CardTitle>
+         <CardSubtitle> <img src={require("../image/star.png")}></img> 4 <span>(23)</span></CardSubtitle>
+       
+        <div className="d-flex footer-card">
+          <img src={require('../image/review.png')}></img>
+          <h3 className="orange-price">  $84.3 </h3>
+        </div>
+       </CardBody>
+     </Card>
+     </Col>
+     <Col md={3}>
+       <Card  >
+       <CardImg top width="100%" src={require('../image/listdishes5.jpg')} alt="Card image cap" />
+        <div className="reviews">
+          <img src={require('../image/heart.png')}></img>
+        </div>
+       <CardBody>
+         <CardTitle> Arkansas Fried Pickles </CardTitle>
+         <CardSubtitle> <img src={require("../image/star.png")}></img> 4 <span>(23)</span></CardSubtitle>
+       
+        <div className="d-flex footer-card">
+          <img src={require('../image/review.png')}></img>
+          <h3 className="orange-price">  $84.3 </h3>
+        </div>
+       </CardBody>
+     </Card>
+     </Col>
+     <Col md={3}>
+       <Card  >
+       <CardImg top width="100%" src={require('../image/listdishes7.jpg')} alt="Card image cap" />
+        <div className="reviews">
+          <img src={require('../image/heart.png')}></img>
+        </div>
+       <CardBody>
+         <CardTitle> Arkansas Fried Pickles </CardTitle>
+         <CardSubtitle> <img src={require("../image/star.png")}></img> 4 <span>(23)</span></CardSubtitle>
+       
+        <div className="d-flex footer-card">
+          <img src={require('../image/review.png')}></img>
+          <h3 className="orange-price">  $84.3 </h3>
+        </div>
+       </CardBody>
+     </Card>
+     </Col>
+     <Col md={3}>
+       <Card  >
+       <CardImg top width="100%" src={require('../image/listdishes6.jpg')} alt="Card image cap" />
+        <div className="reviews">
+          <img src={require('../image/heart.png')}></img>
+        </div>
+       <CardBody>
+         <CardTitle> Arkansas Fried Pickles </CardTitle>
+         <CardSubtitle> <img src={require("../image/star.png")}></img> 4 <span>(23)</span></CardSubtitle>
+       
+        <div className="d-flex footer-card">
+          <img src={require('../image/review.png')}></img>
+          <h3 className="orange-price">  $84.3 </h3>
+        </div>
+       </CardBody>
+     </Card>
+     </Col>
+     <Col md={3}>
+       <Card  >
+       <CardImg top width="100%" src={require('../image/listdishes9.jpg')} alt="Card image cap" />
+        <div className="reviews">
+          <img src={require('../image/heart.png')}></img>
+        </div>
+       <CardBody>
+         <CardTitle> Arkansas Fried Pickles </CardTitle>
+         <CardSubtitle> <img src={require("../image/star.png")}></img> 4 <span>(23)</span></CardSubtitle>
+       
+        <div className="d-flex footer-card">
+          <img src={require('../image/review.png')}></img>
+          <h3 className="orange-price">  $84.3 </h3>
+        </div>
+       </CardBody>
+     </Card>
+     </Col>
+     </Row>
        </TabPane>
        <TabPane tabId="2">
          <Row>
