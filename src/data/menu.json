@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "dish_type":"Lunch",
+      "tab_value":"2"
+  
+    }, 
+    {
+      "id": 2,
+      
+      "dish_type":"Carry-out-special",
+      "tab_value":"3"
+  
+    },
+    {
+      "id": 3,
+      
+      "dish_type":"Breakfast",
+      "tab_value":"4"
+  
+    },
+    {
+      "id": 4,
+      
+      "dish_type":"Dinner",
+      "tab_value":"5"
+  
+    },
+    {
+      "id": 5,
+     
+      "dish_type":"Sushi",
+      "tab_value":"6"
+  
+    },
+    {
+      "id": 6,
+     
+      "dish_type":"Chinese",
+      "tab_value":"7"
+  
+    },
+    {
+      "id": 7,
+     
+      "dish_type":"American",
+      "tab_value":"8"
+  
+    },
+    {
+      "id": 8,
+     
+      "dish_type":"Mexican",
+      "tab_value":"9"
+  
+    },
+    {
+        "id": 9,
+       
+        "dish_type":"Brunch",
+        "tab_value":"10"
+    
+      }
+    
+    
+  ]

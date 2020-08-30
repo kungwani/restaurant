@@ -10,7 +10,9 @@ import {
   Dropdown, CardImg, CardBody,
  CardSubtitle} from 'reactstrap';
  import data from '../data/data.json'
+ import menu from '../data/menu.json'
  import classnames from 'classnames';
+ import Icons from './Icons'
 import "../style.scss"
 
 const Main = (props) => {
@@ -25,11 +27,11 @@ const Main = (props) => {
   const dropdowntoggle = () => setDropdownOpen(prevState => !prevState);
 
   const  newdata= data.map( ( data) =>{
-//   alert(data.url)
+    //  alert(data.imageURL)
     return  (
         <Col md={3}>
        <Card  key= {data.id}>
-       <CardImg top width="100%" src={data.imageURL} alt="Card image cap" />
+       <CardImg top width="100%" src={Icons[data.imageURL]} alt="Card image cap" />
         <div className="reviews">
           <img src={require('../image/heart.png')}></img>
         </div>
@@ -120,49 +122,18 @@ const Main = (props) => {
            Top Rated
          </NavLink>
        </NavItem>
-       <NavItem>
+       { menu.map( ( menu) =>{
+       return  ( <NavItem>
          <NavLink
-           className={classnames({ active: activeTab === '2' })}
-           onClick={() => { toggle('2'); }}
+           className={classnames({ active: activeTab === menu.tab_value })}
+           onClick={() => { toggle(menu.tab_value); }}
          >
-          Brunch
-         </NavLink></NavItem>
-         <NavItem><NavLink
-           className={classnames({ active: activeTab === '2' })}
-           onClick={() => { toggle('2'); }}
-         >
-          Lunch
-         </NavLink></NavItem>
-         <NavItem><NavLink
-           className={classnames({ active: activeTab === '2' })}
-           onClick={() => { toggle('2'); }}
-         >
-          Carry-out-special
-         </NavLink></NavItem>
-         <NavItem><NavLink
-           className={classnames({ active: activeTab === '2' })}
-           onClick={() => { toggle('2'); }}
-         >
-          Breakfast
-         </NavLink></NavItem>
-         <NavItem><NavLink
-           className={classnames({ active: activeTab === '2' })}
-           onClick={() => { toggle('2'); }}
-         >
-          Dinner
-         </NavLink></NavItem>
-         <NavItem><NavLink
-           className={classnames({ active: activeTab === '2' })}
-           onClick={() => { toggle('2'); }}
-         >
-          Sushi
-         </NavLink></NavItem>
-         <NavItem><NavLink
-           className={classnames({ active: activeTab === '2' })}
-           onClick={() => { toggle('2'); }}
-         >
-          Chines
-         </NavLink></NavItem>
+         {menu.dish_type}
+         </NavLink></NavItem>)})
+         }
+        
+         
+         
       
      </Nav></Col>
      </Row>
@@ -173,7 +144,9 @@ const Main = (props) => {
              <h2 className="tab-heading">Popular Items</h2>
            </Col>
          </Row>
-         <Row> <Col md={3}>
+          <Row> 
+            {newdata}
+        {/* <Col md={3}>
        <Card  >
        <CardImg top width="100%" src={require('../image/listdishes.png')} alt="Card image cap" />
         <div className="reviews">
@@ -308,7 +281,7 @@ const Main = (props) => {
         </div>
        </CardBody>
      </Card>
-     </Col>
+     </Col> */}
      </Row>
        </TabPane>
        <TabPane tabId="2">

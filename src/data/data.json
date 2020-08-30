@@ -1,18 +1,116 @@
 [
   {
     "id": 1,
-    "imageURL": "/static/media/listdishes.png",
+    "imageURL": "DISh1",
     "dish_name": "Arkansas Fried Pickles",
     "dish_rating": "4.7",
-    "dish_price": " $8.36"
+    "dish_price": " $8.36",
+    "dish_type":"Lunch",
+    "tab_value":"2"
 
   }, 
   {
     "id": 2,
-    "imageURL": "/static/media/listdishes.d24ac52c.png",
+    "imageURL": "DISh2",
     "dish_name": "Arkansas Fried Pickles2",
     "dish_rating": "4.72",
-    "dish_price": " $8.362"
+    "dish_price": " $8.362",
+    "dish_type":"Carry-out-special",
+    "tab_value":"3"
+
+  },
+  {
+    "id": 3,
+    "imageURL": "DISh3",
+    "dish_name": "Arkansas Fried Pickles3",
+    "dish_rating": "4.72",
+    "dish_price": " $3.362",
+    "dish_type":"Breakfast",
+    "tab_value":"4"
+
+  },
+  {
+    "id": 4,
+    "imageURL": "DISh4",
+    "dish_name": "Arkansas Fried Pickles2",
+    "dish_rating": "5.72",
+    "dish_price": " $5.33",
+    "dish_type":"Dinner",
+    "tab_value":"4"
+
+  },
+  {
+    "id": 5,
+    "imageURL": "DISh5",
+    "dish_name": "Arkansas Fried Pickles2",
+    "dish_rating": "8.72",
+    "dish_price": " $1.362",
+    "dish_type":"Sushi",
+    "tab_value":"5"
+
+  },
+  {
+    "id": 6,
+    "imageURL": "DISh6",
+    "dish_name": "Arkansas Fried Pickles2",
+    "dish_rating": "4.72",
+    "dish_price": " $8.362",
+    "dish_type":"Chinese",
+    "tab_value":"6"
+
+  },
+  {
+    "id": 7,
+    "imageURL": "DISh7",
+    "dish_name": "Arkansas Fried Pickles2",
+    "dish_rating": "4.72",
+    "dish_price": " $10.362",
+    "dish_type":"American",
+    "tab_value":"6"
+
+  },
+  {
+    "id": 8,
+    "imageURL": "DISh8",
+    "dish_name": "Arkansas Fried Pickles2",
+    "dish_rating": "4.72",
+    "dish_price": " $12.362",
+    "dish_type":"Mexican",
+    "tab_value":"6"
+
+  },
+  {
+    "id": 9,
+    "imageURL": "DISh9",
+    "dish_name": "Arkansas Fried Pickles2",
+    "dish_rating": "4.72",
+    "dish_price": " $4.362"
+
+  },
+  {
+    "id": 10,
+    "imageURL": "DISh10",
+    "dish_name": "Arkansas Fried Pickles2",
+    "dish_rating": "4.72",
+    "dish_price": " $10.362"
+
+  },
+  {
+    "id": 11,
+    "imageURL": "DISh2",
+    "dish_name": "Arkansas Fried Pickles2",
+    "dish_rating": "4.892",
+    "dish_price": " $68.362"
+
+  },
+  {
+    "id": 12,
+    "imageURL": "DISh12",
+    "dish_name": "Arkansas Fried Pickles2",
+    "dish_rating": "4.72",
+    "dish_price": " $12.362"
 
   }
+  
+  
 ]
